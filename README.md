@@ -1,2 +1,2 @@
 # al-hu.github.io
-Greetings friends
+Personal webpage in progress
