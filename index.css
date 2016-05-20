@@ -1,0 +1,31 @@
+body {
+  background-color: #ccffff;
+}
+
+.navbar{
+  list-style-type: none;
+  padding: 0px;
+  padding-right: 20px;
+  margin: 0px;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+}
+li a {
+  padding: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: block;
+  text-decoration: none;
+  color : white;
+  background-color: grey;
+  border: 1px solid black;
+  list-style-type: none;
+}
+
+li a:hover {
+  background-color: black;
+  color: white;
+}
