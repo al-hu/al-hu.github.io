@@ -1,31 +1,36 @@
 body {
-  background-color: #ccffff;
+  background-color: #819BA3;
+}
+.navbar-left {
+  position: fixed;
+  height: 95%;
+  width: 300px;
+  max-width: 300px;
+  border-right:2px solid black;
+  font-size: 20px;
 }
 
 .navbar{
-  list-style-type: none;
   padding: 0px;
-  padding-right: 20px;
   margin: 0px;
   float: left;
+  margin-top: 200px;
+  position: absolute;
+  height: 100%;
 }
 
 ul {
   list-style-type: none;
+  text-decoration: none;
 }
 li a {
   padding: 8px;
-  padding-top: 16px;
-  padding-bottom: 16px;
   display: block;
   text-decoration: none;
-  color : white;
-  background-color: grey;
-  border: 1px solid black;
-  list-style-type: none;
+  color : black;
+  border: none;
 }
 
 li a:hover {
-  background-color: black;
   color: white;
 }
