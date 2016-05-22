@@ -1,5 +1,7 @@
 body {
   background-color: #819BA3;
+  margin: 0;
+  padding: 0;
 }
 .navbar-left {
   position: fixed;
@@ -11,10 +13,11 @@ body {
 }
 
 .navbar{
+  left:;
   padding: 0px;
   margin: 0px;
   float: left;
-  margin-top: 200px;
+  margin-top: 100px;
   position: absolute;
   height: 100%;
 }
@@ -22,15 +25,22 @@ body {
 ul {
   list-style-type: none;
   text-decoration: none;
+  padding: 0;
 }
 li a {
-  padding: 8px;
+  width: 60%;
+  padding-left: 80px;
+  padding-right: 87px;
   display: block;
   text-decoration: none;
   color : black;
   border: none;
+  margin-left: -40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 li a:hover {
   color: white;
+  background-color: #001f4d;
 }
