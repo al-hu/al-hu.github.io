@@ -4,6 +4,7 @@ body {
   padding: 0;
 }
 .navbar-left {
+  margin-top:10px;
   position: fixed;
   height: 95%;
   width: 300px;
@@ -13,13 +14,13 @@ body {
 }
 
 .navbar{
-  left:;
   padding: 0px;
   margin: 0px;
   float: left;
   margin-top: 100px;
   position: absolute;
   height: 100%;
+  width: 100%;
 }
 
 ul {
@@ -27,20 +28,32 @@ ul {
   text-decoration: none;
   padding: 0;
 }
+
 li a {
-  width: 60%;
-  padding-left: 80px;
-  padding-right: 87px;
+  width: 100% - 40px;
   display: block;
   text-decoration: none;
   color : black;
   border: none;
-  margin-left: -40px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  margin:0;
+  padding: 10px 0px 10px 40px;
 }
 
 li a:hover {
   color: white;
   background-color: #001f4d;
+}
+
+.content {
+  position: absolute;
+  margin-left: 330px;
+  margin-right: 30px;
+  margin-top: 30px;
+
+}
+
+.section {
+  color: black;
+  font-family: Verdana;
+  text-decoration: underline;
 }
