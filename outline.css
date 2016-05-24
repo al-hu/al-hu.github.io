@@ -1,0 +1,22 @@
+body {
+	margin:0;
+	padding: 0;
+}
+
+.navbar{
+	display: block;
+	border: 2px solid red;
+	position:relative;
+	width: 24%;
+	height: 100%;
+	float: left;
+}
+
+.content{
+	position: relative;
+	display: block;
+	border: 2px dotted green;
+	width:75%;
+	height: 100%;
+	float:left;
+}

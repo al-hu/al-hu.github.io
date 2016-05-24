@@ -52,6 +52,10 @@ li a:hover {
 
 }
 
+p.body-text{
+  text-indent: 30px;
+}
+
 .section {
   color: black;
   font-family: Verdana;
