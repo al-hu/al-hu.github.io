@@ -4,19 +4,24 @@ body {
 }
 
 .navbar{
+	position:fixed;
 	display: block;
-	border: 2px solid red;
-	position:relative;
-	width: 24%;
+	border: 1px solid red;
+	position:fixed;
+	width: 25%;
 	height: 100%;
 	float: left;
+	top:0;
+	bottom:0;
 }
 
 .content{
 	position: relative;
 	display: block;
-	border: 2px dotted green;
+	border: 1px dotted green;
+	border-left: 2px solid black;
 	width:75%;
-	height: 100%;
-	float:left;
+	float:right;
+	top:0;
+	right:0;
 }
