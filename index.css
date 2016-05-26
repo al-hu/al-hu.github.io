@@ -55,6 +55,12 @@ li a:hover {
 }
 
 /*CONTENT*/
+.albert {
+  float: right;
+  margin-right: 20px;
+  width: 300px;
+}
+
 .undecorated-link {
   text-decoration: none;
   color: #cc2900;
