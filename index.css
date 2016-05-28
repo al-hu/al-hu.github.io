@@ -55,7 +55,7 @@ li a.current-tab::after {
 li a.current-tab:hover::after {
   content: url(img/left-arrow-hover.png);
   float: right;
-  margin-right: 10px;
+  padding-right: 10px;
 }
 .content {
   position: relative;
@@ -66,10 +66,20 @@ li a.current-tab:hover::after {
 }
 
 /*CONTENT*/
+.quote {
+  font-family: Verdana;
+}
+
+.quote-author {
+  text-align: end;
+  padding-right: 20px;
+}
+
 .albert {
   float: right;
   margin-right: 20px;
-  width: 300px;
+  margin-left: 10px;
+  width: 290px;
 }
 
 .undecorated-link {
@@ -82,7 +92,7 @@ p.body-text{
   line-height: 1.4em;
 }
 
-.section {
+.section-header {
   color: black;
   font-family: Verdana;
   text-decoration: underline;
