@@ -41,9 +41,10 @@ em {
 } 
 /*GENERAL POSITIONING*/
 body {
-  background-color: #819BA3;
+  background-color: #F8DCCB;
   margin: 0;
   padding: 0;
+  font-family: "Open Sans", "Helvetica";
 }
 .navbar-left {
   margin: 0;
@@ -54,7 +55,7 @@ body {
   font-size: 20px;
   padding-top: 30px;
   box-sizing: border-box;
-  background-color: rgba(255,153,0, 0.7);
+  background-color: #AD92AB;
   border-right: 1px solid black;
 
 }
@@ -168,7 +169,7 @@ li a.current-tab:hover::after {
 
 p.body-text{
   text-indent: 30px;
-  line-height: 1.4em;
+  line-height: 25px;
 }
 
 .section-header {
