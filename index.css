@@ -1,4 +1,8 @@
 /*CSS RESET*/
+
+/*  background-color: #819BA3;*/
+  /*background-color: rgba(255,153,0, 0.7);*/
+
 html,body,blockquote,code,pre {
   margin:0;
   padding:0;
@@ -131,6 +135,10 @@ li a.current-tab:hover::after {
 /*CONTENT*/
 .hidden {
   display: none;
+}
+
+#description {
+  font-size: 20px;
 }
 
 .toggle {
