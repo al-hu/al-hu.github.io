@@ -142,7 +142,7 @@ li a.current-tab:hover::after {
 }
 
 .toggle {
-  display: inline-block;
+  display: block;
   cursor: pointer;
 }
 
