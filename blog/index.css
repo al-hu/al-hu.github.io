@@ -51,8 +51,15 @@ em {
   font-size: 56px;
   text-align: center;
   font-weight: 600;
+  padding: 0px 10px 0px 10px;
 }
 
 .title-description {
   font-size: 18px;
+  padding: 0px 10px 0px 10px;
+
 }
+
+.content {
+/*  padding: 0px;
+*/}
