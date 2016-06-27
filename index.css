@@ -45,7 +45,7 @@ em {
 } 
 /*GENERAL POSITIONING*/
 body {
-  background-color: #F8DCCB;
+  background-color: #7AC5CD;
   margin: 0;
   padding: 0;
   font-family: "Open Sans", "Helvetica";
@@ -59,7 +59,7 @@ body {
   font-size: 20px;
   padding-top: 30px;
   box-sizing: border-box;
-  background-color: #AD92AB;
+  background-color: rgba(255,255,255,.5);
   border-right: 1px solid black;
 
 }
