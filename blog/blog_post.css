@@ -1,10 +1,10 @@
 html,blockquote,code,pre {
   margin:0;
   padding:0;
-  font-family: "Open Sans", "Helvetica";
+  font-family: "Lora", "Open Sans", "Helvetica";
   background-color: #F6F6F6;
 }
-button,fieldset,form,input,legend,textarea,select {
+button,fieldset,form,input,legend,textarea,select, p {
   margin:0;
   padding:0
 }
@@ -43,6 +43,7 @@ em {
 } 
 
 .center-container {
+  width: ;
   max-width: 680px;
   background-color: red;
   color: black;
@@ -51,7 +52,7 @@ em {
   padding: 30px 20px;
 }
 
-.title {
+.blog-title {
   font-size: 50px;
   font-weight: 800;
   line-height: 50px;
@@ -62,10 +63,17 @@ em {
   font-style: italic;
   padding-bottom: 10px;
   border-bottom: 2px solid black;
+  margin-bottom: 20px;
 }
 
 .text {
   font-size: 16px;
   line-height: 24px;
-  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 18px;
 }
