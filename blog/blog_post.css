@@ -3,7 +3,6 @@ html,blockquote,code,pre {
   padding:0;
   font-family: "Open Sans", "Helvetica";
   background-color: #F6F6F6;
-  height: 100%;
 }
 button,fieldset,form,input,legend,textarea,select {
   margin:0;
@@ -51,6 +50,8 @@ em {
   background-attachment: fixed;
   margin: 0px auto;
   bottom: 0;
+  box-sizing: border-box;
   top: 0;
+  padding: 30px 20px;
 }
 
