@@ -1,4 +1,4 @@
-html,body,blockquote,code,pre {
+html,blockquote,code,pre {
   margin:0;
   padding:0;
   font-family: "Open Sans", "Helvetica";
@@ -15,7 +15,8 @@ fieldset {
 a,a * {
   cursor:pointer;
 }
-div {margin:0;
+div {
+  margin:0;
   padding:0;
   background-color:transparent;
   text-align:left;
@@ -44,38 +45,12 @@ em {
 
 .center-container {
   position: relative;
-  max-width: 1050px;
-  background-color: white;
+  max-width: 680px;
+  background-color: red;
+  color: black;
   background-attachment: fixed;
-  margin: 0px auto 0px;
-  text-align: center;
+  margin: 0px auto;
   bottom: 0;
   top: 0;
 }
 
-.title {
-  font-size: 56px;
-  text-align: center;
-  font-weight: 600;
-}
-
-.title-description {
-  font-size: 18px;
-
-}
-
-.content {
-  padding: 0px 10px 0px 10px;
-*/}
-
-a {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.entry {
-  width: 500px;
-  height: 500px;
-  background-color: red;
-  display: inline-block;
-}
