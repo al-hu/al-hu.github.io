@@ -50,10 +50,11 @@ em {
   margin: 0px auto;
   box-sizing: border-box;
   padding: 30px 20px;
+  overflow: hidden;
 }
 
 .blog-title {
-  font-size: 50px;
+  font-size: 56px;
   font-weight: 800;
   line-height: 50px;
 }
@@ -76,4 +77,6 @@ em {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 18px;
+  border-bottom: 1px solid black;
+  display: inline-block;
 }
