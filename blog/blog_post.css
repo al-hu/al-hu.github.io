@@ -44,7 +44,7 @@ em {
 
 .center-container {
   width: ;
-  max-width: 680px;
+  max-width: 740px;
   background-color: red;
   color: black;
   margin: 0px auto;
@@ -71,6 +71,7 @@ em {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 16px;
+  text-indent: 30px;
 }
 
 .title {
