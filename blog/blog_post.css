@@ -2,7 +2,7 @@ html,blockquote,code,pre {
   margin:0;
   padding:0;
   font-family: "Lora", "Open Sans", "Helvetica";
-  background-color: #F6F6F6;
+  background-color: #DDDDDD;
 }
 button,fieldset,form,input,legend,textarea,select, p {
   margin:0;
@@ -43,14 +43,14 @@ em {
 } 
 
 .center-container {
-  width: ;
   max-width: 740px;
-  background-color: red;
+  background-color: #F7F8F8;
   color: black;
   margin: 0px auto;
   box-sizing: border-box;
   padding: 30px 20px;
   overflow: hidden;
+  box-shadow: 12px 0 10px -8px rgba(31, 73, 125, 0.4), -12px 0 10px -8px rgba(31, 73, 125, 0.4);
 }
 
 .blog-title {
