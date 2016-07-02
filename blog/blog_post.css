@@ -2,7 +2,7 @@ html,body,blockquote,code,pre {
   margin:0;
   padding:0;
   font-family: "Lora", "Open Sans", "Helvetica";
-  background-color: #DDDDDD;
+  background-color: rgba(122,197,205, 0.3);
 }
 button,fieldset,form,input,legend,textarea,select, p {
   margin:0;
