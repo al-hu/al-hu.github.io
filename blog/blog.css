@@ -80,8 +80,23 @@ a {
 }
 
 .link-box {
+  padding: 6px;
   background-color: white;
   width: 100%;
   margin-top: 30px;
   border: 1px solid #0fbff2;
+  color: black;
+}
+
+.entry-title {
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: 1px solid black;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.entry-description {
+  font-size: 14px;
+  font-weight: 300;
 }
